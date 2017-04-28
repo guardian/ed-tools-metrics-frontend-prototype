@@ -1,0 +1,25 @@
+[class^="grid-"] {
+  display: grid;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.grid-2up {
+  grid-template-columns: 49% 49%;
+  grid-gap: 2%;
+}
+
+.grid-3up {
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 2%;
+}
+
+@media (max-device-width: 600px) {
+  [class^="grid-"] {
+    display: block;
+  }
+
+  [class^="grid-"] * {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.Big-num {
+  border-top: 1px solid #ffbc01;
+  color: #fff;
+  text-align: center;
+}
+
+.Big-value {
+  display: block;
+  font-size: 150px;
+}
+
+.Big-label {
+  font-size: 20px;
+}
